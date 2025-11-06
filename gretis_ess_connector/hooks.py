@@ -242,3 +242,14 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+doc_events = {
+    "Attendance Request": {
+        "validate": "gretis_ess_connector.gog_webhook_handler.trigger_webhook_for_doc"
+    },
+    "Leave Application": {
+        "validate": "gretis_ess_connector.gog_webhook_handler.trigger_webhook_for_doc"
+    },
+    "Expense Claim": {
+        "validate": "gretis_ess_connector.gog_webhook_handler.trigger_webhook_for_doc"
+    }
+}

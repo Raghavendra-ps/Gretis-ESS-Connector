@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestGretisESSWebhookLog(FrappeTestCase):
+class TestGOGSettings(FrappeTestCase):
 	pass

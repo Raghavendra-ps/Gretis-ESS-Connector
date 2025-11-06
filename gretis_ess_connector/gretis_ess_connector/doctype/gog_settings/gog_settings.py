@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class GretisESSWebhookLog(Document):
+class GOGSettings(Document):
 	pass

@@ -1,8 +1,9 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-11-06 17:30:16.201717",
+ "creation": "2025-11-06 21:42:52.647634",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "details_section",
@@ -21,21 +22,18 @@
    "label": "Details Section"
   },
   {
-   "description": "Options: Success, Error",
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Success, Error"
+   "options": "Success\nError"
   },
   {
-   "description": "Options: DocType",
    "fieldname": "reference_doctype",
    "fieldtype": "Link",
-   "label": "Reference Doctype",
+   "label": "Reference DocType",
    "options": "DocType"
   },
   {
-   "description": "Options: reference_doctype",
    "fieldname": "reference_name",
    "fieldtype": "Dynamic Link",
    "label": "Reference Name",
@@ -47,7 +45,6 @@
    "label": "Payload Section"
   },
   {
-   "description": "Options: JSON",
    "fieldname": "request_payload",
    "fieldtype": "Code",
    "label": "Request Payload",
@@ -68,10 +65,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-06 17:41:29.958906",
+ "modified": "2025-11-06 21:42:52.647634",
  "modified_by": "Administrator",
  "module": "Gretis ESS Connector",
- "name": "Gretis ESS Webhook Log",
+ "name": "GOG Webhook Log",
  "owner": "Administrator",
  "permissions": [
   {
